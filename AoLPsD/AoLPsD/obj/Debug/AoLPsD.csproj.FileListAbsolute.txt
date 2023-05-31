@@ -1,0 +1,26 @@
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\bin\Debug\AoLPsD.exe.config
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\bin\Debug\AoLPsD.exe
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\bin\Debug\AoLPsD.pdb
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.csproj.AssemblyReference.cache
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.FormLogin.resources
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.FormPerusahaan.resources
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.Properties.Resources.resources
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.csproj.GenerateResource.cache
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.csproj.CoreCompileInputs.cache
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.exe
+C:\Users\ragil\OneDrive\Documents\AoL PsD\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.pdb
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\bin\Debug\AoLPsD.exe.config
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\bin\Debug\AoLPsD.exe
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\bin\Debug\AoLPsD.pdb
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.csproj.AssemblyReference.cache
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.FormLogin.resources
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.FormPerusahaan.resources
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.Properties.Resources.resources
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.csproj.GenerateResource.cache
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.csproj.CoreCompileInputs.cache
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.exe
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.pdb
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.FormBarang.resources
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.FormHargaBarang.resources
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.FormMenu.resources
+C:\Users\ragil\OneDrive\Documents\AoLPatternSoftwareDesign\AoLPsD\AoLPsD\obj\Debug\AoLPsD.FormTransaksi.resources

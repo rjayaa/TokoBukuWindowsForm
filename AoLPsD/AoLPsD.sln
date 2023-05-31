@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoLPsD", "AoLPsD\AoLPsD.csproj", "{FDFB26D3-9990-48F1-ABE0-44991E240567}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDFB26D3-9990-48F1-ABE0-44991E240567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFB26D3-9990-48F1-ABE0-44991E240567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFB26D3-9990-48F1-ABE0-44991E240567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFB26D3-9990-48F1-ABE0-44991E240567}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58BF9E74-5333-46E4-AA09-1B9EB9866F30}
+	EndGlobalSection
+EndGlobal
