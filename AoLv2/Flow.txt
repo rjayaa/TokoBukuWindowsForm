@@ -1,0 +1,20 @@
+Proses Pendaftaran Pelanggan
+Form Pelanggan: CustomerID, Name, Address, Phone, Email
+Simpan data ke tabel Customers
+
+Proses Pemesanan Buku Baru
+Form Pesanan: OrderID, CustomerID, OrderDate, Status
+Form Detail Pesanan: OrderItemID, BookID, Quantity
+Simpan data ke tabel Orders dan OrderItems
+
+Proses Pembayaran Pesanan
+Form Pembayaran: PaymentID, OrderID, Amount, PaymentDate, PaymentMethod
+Simpan data ke tabel Payments
+
+Proses Pembuatan Faktur
+Form Faktur: InvoiceID, OrderID, Amount, IssuedDate
+Simpan data ke tabel Invoices
+
+Proses Pengelolaan Data Buku
+Form Buku: BookID, Title, Author, Publisher, PublicationYear, Price, Stock
+Simpan data ke tabel Books

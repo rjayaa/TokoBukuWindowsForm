@@ -1,0 +1,92 @@
+CREATE TABLE Customers (
+    CustomerID CHAR(6) PRIMARY KEY,
+    Name VARCHAR(255),
+    Address VARCHAR(255),
+    Phone VARCHAR(20),
+    Email VARCHAR(255)
+);
+
+CREATE TABLE Orders (
+    OrderID CHAR(6) PRIMARY KEY,
+    CustomerID CHAR(6),
+    OrderDate DATE,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+);
+
+
+CREATE TABLE Books (
+    BookID CHAR(6) PRIMARY KEY,
+    Title VARCHAR(255),
+    Author VARCHAR(255),
+    Publisher VARCHAR(255),
+    PublicationYear INT,
+    Price INT,
+    Stock INT
+);
+
+CREATE TABLE OrderItems (
+    OrderItemID CHAR(6) PRIMARY KEY,
+    OrderID CHAR(6),
+    BookID CHAR(6),
+    Quantity INT,
+    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
+    FOREIGN KEY (BookID) REFERENCES Books(BookID)
+);
+
+
+CREATE TABLE Payments (
+    PaymentID CHAR(6) PRIMARY KEY,
+    OrderID CHAR(6),
+    Amount INT,
+    PaymentDate DATE,
+    PaymentMethod VARCHAR(50),
+    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
+);
+
+CREATE TABLE Invoices (
+    InvoiceID CHAR(6) PRIMARY KEY,
+    OrderID CHAR(6),
+    Amount INT,
+    IssuedDate DATE,
+    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
+);
+
+
+DUMMY DATA :
+Books :
+INSERT INTO Books (BookID, Title, Author, Publisher, PublicationYear, Price, Stock)
+VALUES
+('BOK001', 'The Fellowship of the Ring', 'J.R.R. Tolkien', 'Allen & Unwin', 1954, 100000, 10),
+('BOK002', 'The Two Towers', 'J.R.R. Tolkien', 'Allen & Unwin', 1954, 100000, 15),
+('BOK003', 'The Return of the King', 'J.R.R. Tolkien', 'Allen & Unwin', 1955, 120000, 20),
+('BOK004', 'To Kill a Mockingbird', 'Harper Lee', 'J.B. Lippincott & Co.', 1960, 80000, 5);
+
+
+Customers :
+INSERT INTO Customers (CustomerID, Name, Address, Phone, Email) VALUES
+('CUS001', 'John Doe', '123 Main St', '555-1234', 'johndoe@example.com'),
+('CUS002', 'Jane Smith', '456 Oak Ave', '555-5678', 'janesmith@example.com'),
+('CUS003', 'Bob Johnson', '789 Elm Blvd', '555-9012', 'bobjohnson@example.com'),
+('CUS004', 'Samantha Lee', '246 Maple Dr', '555-3456', 'samleee@example.com'),
+('CUS005', 'David Chen', '135 Pine Rd', '555-7890', 'davidchen@example.com');
+
+Orders :
+INSERT INTO Orders (OrderID, CustomerID, OrderDate) VALUES
+('ORD001', 'CUS001', '2022-01-01'),
+('ORD002', 'CUS002', '2022-01-02'),
+('ORD003', 'CUS003', '2022-01-03'),
+('ORD004', 'CUS004', '2022-01-04'),
+('ORD005', 'CUS005', '2022-01-05');
+
+OrderItems :
+INSERT INTO OrderItems (OrderItemID, OrderID, BookID, Quantity)
+VALUES ('OID001', 'ORD001', 'BOK001', 2),
+       ('OID002', 'ORD001', 'BOK002', 1),
+       ('OID003', 'ORD002', 'BOK001', 3),
+       ('OID004', 'ORD002', 'BOK003', 2),
+       ('OID005', 'ORD003', 'BOK002', 1);
+
+
+
+
+
